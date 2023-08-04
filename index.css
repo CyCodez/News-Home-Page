@@ -177,6 +177,14 @@ img {
 }
 
 @media screen and (max-width: 600px) {
+  html,
+  body {
+    margin: 0 auto;
+
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* This hides horizontal scroll bars */
+  }
   nav {
     display: flex;
     margin-bottom: 10px;
