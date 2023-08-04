@@ -203,7 +203,7 @@ img {
     grid-row-gap: 10px;
     margin: 0px;
   }
-  .paragraph h2 {
+  /* .paragraph h2 {
     margin-top: 60px;
     color: hsl(236, 13%, 42%);
   }
@@ -212,6 +212,13 @@ img {
   }
   .paragraph p {
     margin-top: -70px;
+  } */
+  .paragraph h2 {
+    margin-top: 8px;
+    color: hsl(236, 13%, 42%);
+  }
+  .paragraph p {
+    margin-bottom: 10px;
   }
   .paragraph1 {
     grid-area: left;
@@ -229,7 +236,7 @@ img {
     background-color: black;
     margin: 0 auto;
     padding: 10px;
-    height: 610px; /* Should be removed. Only for demonstration */
+    height: 670px; /* Should be removed. Only for demonstration */
     width: 100%;
   }
   .image {
@@ -237,6 +244,9 @@ img {
     height: 80%;
     display: block;
     margin: 0 auto; /* Center the image horizontally */
+  }
+  .paragraph {
+    max-height: 80%;
   }
   .flex-container {
     display: flex;
@@ -248,8 +258,9 @@ img {
   }
   .pair {
     display: flex;
-    align-items: center; /* Vertically center items within each pair */
-    margin: 0 4px;
+    align-items: flex-start; /* Vertically center items within each pair */
+    margin: 0 auto;
+    gap: 30px;
     flex-direction: column;
   }
   button {
