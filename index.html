@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  g
+  <body>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="overlay-content">
+        <a href="#">Home</a>
+        <a href="#">New</a>
+        <a href="#">Popular</a>
+        <a href="#">Trending</a>
+        <a href="#">Categories</a>
+      </div>
+    </div>
+    <nav>
+      <div class="wdiv">W.</div>
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()">
+        <img
+          class="harmburg"
+          src="https://static.vecteezy.com/system/resources/previews/002/292/406/original/hamburger-menu-line-icon-free-vector.jpg"
+      /></span>
+
+      <div class="innernav">
+        <a href="#">Home</a>
+        <a href="#">New</a>
+        <a href="#">Popular</a>
+        <a href="#">Trending</a>
+        <a href="#">Categories</a>
+      </div>
+    </nav>
+
+    <div class="grid-container">
+      <div class="first-image">
+        <img
+          src="./assets/images/image-web-3-desktop.jpg"
+          class="desktop-img"
+          alt="desktop-image"
+        />
+        <img
+          src="./assets/images/image-web-3-mobile.jpg"
+          class="mobile-img"
+          alt="mobile-image"
+        />
+      </div>
+
+      <div class="paragraph1"><h1>The Bright Future of Web 3.0?</h1></div>
+      <div class="paragraph2">
+        <p>
+          We dive into the next evolution of the web that claims to put the
+          power of the platforms back into the hands of the people. But is it
+          really fulfilling its promise?
+        </p>
+        <p><button>Read more</button></p>
+      </div>
+
+      <div class="paragraph3">
+        <h1>New</h1>
+        <h2>Hydrogen VS Electric Cars</h2>
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+
+        <h2>The Downsides of AI Artistry</h2>
+        <p>
+          What are the possible adverse effects of on-demand AI image
+          generation?
+        </p>
+
+        <h2>Is VC Funding Drying Up?</h2>
+        <p>
+          Private funding by VC firms is down 50% YOY. We take a look at what
+          that means.
+        </p>
+      </div>
+    </div>
+    <div class="flex-container">
+      <div class="pair">
+        <div class="item">
+          <img
+            class="image"
+            src="./assets/images/image-retro-pcs.jpg"
+            alt="pc"
+          />
+          <div class="paragraph">
+            <h2>01</h2>
+            <h3>Reviving Retro PCs</h3>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+      </div>
+      <div class="pair">
+        <div class="item">
+          <img
+            class="image"
+            src="./assets/images/image-top-laptops.jpg"
+            alt="laptop"
+          />
+          <div class="paragraph">
+            <h2>02</h2>
+            <h3>Top 10 Laptops of 2022</h3>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+      </div>
+      <div class="pair">
+        <div class="item">
+          <img
+            class="image"
+            src="./assets/images/image-gaming-growth.jpg"
+            alt="gaming"
+          />
+          <div class="paragraph">
+            <h2>03</h2>
+            <h3>The Growth of Gaming</h3>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "50%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+  </body>
+</html>
