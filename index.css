@@ -203,6 +203,30 @@ img {
     grid-row-gap: 10px;
     margin: 0px;
   }
+  .paragraph h2 {
+    margin-top: 60px;
+    color: hsl(236, 13%, 42%);
+  }
+  .paragraph h3 {
+    margin-bottom: 90px;
+  }
+  .paragraph p {
+    margin-top: -70px;
+  }
+  .paragraph3 {
+    grid-area: right;
+    background-color: black;
+    margin-right: 185px;
+    padding: 10px;
+    height: 610px; /* Should be removed. Only for demonstration */
+    width: 100%;
+  }
+  .image {
+    max-width: 60%;
+    height: 80%;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+  }
   .flex-container {
     display: flex;
     margin-top: 30px;
