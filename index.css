@@ -213,10 +213,21 @@ img {
   .paragraph p {
     margin-top: -70px;
   }
+  .paragraph1 {
+    grid-area: left;
+    margin: 0 auto;
+  }
+
+  /* Style the middle column */
+  .paragraph2 {
+    grid-area: middle;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
   .paragraph3 {
     grid-area: right;
     background-color: black;
-    margin-right: 185px;
+    margin: 0 auto;
     padding: 10px;
     height: 610px; /* Should be removed. Only for demonstration */
     width: 100%;
