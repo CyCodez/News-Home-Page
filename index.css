@@ -70,7 +70,8 @@ button {
 /* Style the left column */
 .paragraph1 {
   grid-area: left;
-  margin-right: 15px;
+  white-space: nowrap;
+  font-size: small;
 }
 
 /* Style the middle column */
