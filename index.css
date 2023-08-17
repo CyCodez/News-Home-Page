@@ -70,10 +70,8 @@ button {
 /* Style the left column */
 .paragraph1 {
   grid-area: left;
-  white-space: nowrap;
-  font-size: small;
+  margin-right: 15px;
 }
-
 /* Style the middle column */
 .paragraph2 {
   grid-area: middle;
@@ -87,7 +85,7 @@ button {
   background-color: black;
   margin-right: 185px;
   padding: 10px;
-  height: 562px; /* Should be removed. Only for demonstration */
+  height: 590px;
   width: 100%;
 }
 .paragraph3 h1 {
@@ -224,6 +222,8 @@ img {
   .paragraph1 {
     grid-area: left;
     margin: 0 auto;
+    white-space: nowrap;
+    font-size: small;
   }
 
   /* Style the middle column */
