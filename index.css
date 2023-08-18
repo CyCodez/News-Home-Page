@@ -222,8 +222,7 @@ img {
   .paragraph1 {
     grid-area: left;
     margin: 0 auto;
-    white-space: nowrap;
-    font-size: small;
+    font-size: smaller;
   }
 
   /* Style the middle column */
