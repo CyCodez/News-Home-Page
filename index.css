@@ -1,7 +1,8 @@
 html,
 body {
   margin: 0px;
-
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 0;
   width: 100%;
   overflow-x: hidden; /* This hides horizontal scroll bars */
@@ -64,7 +65,7 @@ button {
 .middle,
 .right {
   padding: 10px;
-  height: 100px; /* Should be removed. Only for demonstration */
+  height: 100px;
 }
 
 /* Style the left column */
@@ -180,7 +181,7 @@ img {
   body {
     margin: 0 auto;
 
-    padding: 0;
+    padding: 15px;
     width: 100%;
     overflow-x: hidden; /* This hides horizontal scroll bars */
   }
