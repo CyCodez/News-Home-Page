@@ -181,7 +181,7 @@ img {
   body {
     margin: 0 auto;
 
-    padding: 15px;
+    padding: 0;
     width: 100%;
     overflow-x: hidden; /* This hides horizontal scroll bars */
   }
@@ -203,16 +203,6 @@ img {
     grid-row-gap: 10px;
     margin: 0px;
   }
-  /* .paragraph h2 {
-    margin-top: 60px;
-    color: hsl(236, 13%, 42%);
-  }
-  .paragraph h3 {
-    margin-bottom: 90px;
-  }
-  .paragraph p {
-    margin-top: -70px;
-  } */
   .paragraph h2 {
     margin-top: 8px;
     color: hsl(236, 13%, 42%);
@@ -225,12 +215,15 @@ img {
     margin: 0 auto;
     font-size: smaller;
   }
-
+  .paragraph1 h1 {
+    font-size: 20px;
+  }
   /* Style the middle column */
   .paragraph2 {
     grid-area: middle;
     margin: 0 auto;
     line-height: 1.5;
+    margin-top: -25px;
   }
   .paragraph3 {
     grid-area: right;
